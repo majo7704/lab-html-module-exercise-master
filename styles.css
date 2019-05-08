@@ -1,0 +1,35 @@
+nav{
+  background-color: #C12127;
+  color:rgba(255, 255, 255, 0.8);
+  padding: 0.35rem 0 0.35rem 0;
+  height: 50px;
+}
+
+nav a{
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+.top-left{
+  display: inline-block;
+  float: left;
+}
+.top-links{
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li{
+  display:inline-block;
+  margin: 0 10px;
+}
+
+.heart{
+  padding: 0 10px 0 10px;
+}
