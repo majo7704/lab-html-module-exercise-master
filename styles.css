@@ -59,11 +59,11 @@ nav ul{
 }
 
 /* Section 1*/
-.section_one{
+.section-one{
   background: darkcyan;
   
 }
-.section_one img{
+.section-one img{
   display:inline-block;
   float: left;
 }
