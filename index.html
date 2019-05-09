@@ -36,29 +36,32 @@
       <li><a href="#">support</a></li>
     </ul>
   </nav>
-<header>
-<div id="header-content">
-  <img src="images/npm-logo.png" width="400" alt="npm red logo">
-  <input class="header-input__field" id="header-search-input" name="search" type="text" placeholder="find packages" />
-  <button class="btn btn--search" type="submit">
-    <svg class="icon" height="18" viewbox="0 0 24 24" width="18" role="search">
-      <use xlink:href="#search"></use>
-    </svg>
-  </button>
-  <ul>
-    <li><a href="#">sign up</a> or <a href="#">log in</a></li>
-    <li><img src="images/bear-logo.png" width="70" alt="brown bear on blue"></li>
-  </ul>
-<h1>Build amazing things</h1>
-  <span>nmp is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</span>
-<div class="btn btn--sign">
-  <button>Sign up for npm</button>
-</div>
+<header class="header-content">
+  <div class="header-form">
+    <img src="images/npm-logo.png" width="100" alt="npm red logo">
+    <input class="header-input__field" id="header-search-input" name="search" type="text" placeholder="find packages" />
+    <button class="btn btn--search" type="submit">
+      <svg class="icon" height="18" viewbox="0 0 24 24" width="18" role="search">
+        <use xlink:href="#search"></use>
+      </svg>
+    </button>
+    <ul class="header-bear">
+      <li><a href="#">sign up</a> or <a href="#">log in</a></li>
+      <li><img src="images/bear-logo.png" width="30" alt="brown bear on blue"></li>
+    </ul>
+  </div>
+  <div class="header-sign">
+    <h1>Build amazing things</h1>
+      <span>nmp is the package manager for JavaScript and the world's largest software registry. Discover packages of reusable code - and assemble them in powerful new ways.</span>
+    <div class="btn btn--sign">
+      <button>Sign up for npm</button>
+    </div>
+  </div>
 </div>
 </header>
-<section id="section-first">
-  <img src="images/collaboration.svg" alt="3 people and a bear" >
-  <div>
+<section class="section_one">
+  <img src="images/collaboration.svg" width="300"alt="3 people and a bear" >
+  <div class="section_one-text">
     <h2>npm Orgs is powerful collaboration - for free</h2>
     <ul>
       <li>Enourage code discovery and re-use within teams</li>
@@ -69,7 +72,7 @@
     <div><em>or </em> <a href="#">Learn more about Orgs</a></div>
   </div>
 </section>
-<section id="section-second">
+<section id="section-two">
   <h3>What is npm?</h3>
   <p>Use npm to install, share, and distribute code; manage dependencies in your projects; share & receive feedback with others.</p>
   <button>Install npm</button>

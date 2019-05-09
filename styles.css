@@ -2,7 +2,7 @@ nav{
   background-color: #C12127;
   color:rgba(255, 255, 255, 0.8);
   padding: 0.35rem 0 0.35rem 0;
-  height: 50px;
+  height: 20px;
 }
 
 nav a{
@@ -32,4 +32,43 @@ nav ul{
 
 .heart{
   padding: 0 10px 0 10px;
+}
+
+/* Header*/
+.header-content{
+  background: #fff url(images/buildings-and-billboard.png)
+  no-repeat 50% 100% / cover;
+  color: #fff;
+}
+
+.header-form a{
+  text-decoration: none;
+  color: #fff;
+}
+.header-form li{
+  display: inline-block;
+  float: right;
+  
+  list-style-type: none;
+  }
+
+.header-form img{
+  padding: 10px;
+  display: inline-block;
+  float: left;
+}
+
+/* Section 1*/
+.section_one{
+  background: darkcyan;
+  
+}
+.section_one img{
+  display:inline-block;
+  float: left;
+}
+/* SEction 2 */
+.section-two{
+  
+  
 }
