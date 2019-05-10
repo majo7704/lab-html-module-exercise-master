@@ -1,74 +1,128 @@
-nav{
+nav {
   background-color: #C12127;
-  color:rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   padding: 0.35rem 0 0.35rem 0;
   height: 20px;
 }
 
-nav a{
+nav a {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
-nav ul{
+nav ul {
   list-style-type: none;
 }
 
-.top-left{
+.top-left {
   display: inline-block;
   float: left;
 }
-.top-links{
+
+.top-links {
   display: inline-block;
   float: right;
   padding: 0;
   margin: 0 20px 0 0;
 }
 
-.top-links li{
-  display:inline-block;
+.top-links li {
+  display: inline-block;
   margin: 0 10px;
 }
 
-.heart{
+.heart {
   padding: 0 10px 0 10px;
 }
 
 /* Header*/
-.header-content{
-  background: #fff url(images/buildings-and-billboard.png)
-  no-repeat 50% 100% / cover;
-  color: #fff;
+
+.header-content {
+  color: white;
+  background-color: rgb(32, 101, 136);
+  margin: 0 auto;
 }
 
-.header-form a{
+.header-sign h1 {
+  margin: 0 auto;
+}
+
+.header-sign img {
+  float: right;
+}
+
+.header-sign button {
+  background-color: rgb(240, 146, 51);
+  color: white;
+}
+
+.header-form a {
   text-decoration: none;
   color: #fff;
 }
-.header-form li{
+
+.header-form li {
   display: inline-block;
   float: right;
-  
-  list-style-type: none;
-  }
 
-.header-form img{
+  list-style-type: none;
+}
+
+.header-form input {
+  background-color: rgb(31, 82, 111)
+}
+
+.logo {
   padding: 10px;
   display: inline-block;
   float: left;
 }
 
-/* Section 1*/
-.section-one{
-  background: darkcyan;
-  
+/* Collaboration*/
+.collaboration {
+  color: white;
+  background-color: rgb(39, 53, 71);
 }
-.section-one img{
-  display:inline-block;
-  float: left;
+
+.collaboration-container {
+  padding: 1.5rem;
+  margin: 0 auto;
 }
-/* SEction 2 */
-.section-two{
+
+.collaboration-heading {
+  display: inline-block;
+  float: right;
+}
+
+.collaboration button {
+  background-color: rgb(203, 56, 55);
+  color: white;
+}
+
+.collaboration a {
+  text-decoration: none;
+  color: white;
+}
+
+/* npm-section */
+.npm {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
   
-  
+  color: white;
+  position: relative;
+  padding: 5.5rem;
+}
+
+.npm h3 {
+  margin: 0;
+}
+
+.npm button {
+  color: white;
+  background: rgb(49, 68, 88);
+}
+
+.npm-text {
+  position: absolute;
 }
