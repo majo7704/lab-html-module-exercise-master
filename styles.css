@@ -37,13 +37,39 @@ nav ul {
 
 /* Header*/
 
-.header-content {
+.header {
   color: white;
   background-color: rgb(32, 101, 136);
   margin: 0 auto;
 }
+.header-search{
+  
+}
 
-.header-sign h1 {
+.search-icon {
+  padding-top: 0.5em;
+}
+
+.header-search button {
+  background-color: rgb(31, 82, 111);
+}
+
+.header-search li {
+  float: right;
+  list-style-type: none;
+}
+
+.header-search input {
+  background-color: rgb(31, 82, 111);
+  margin: 0;
+  padding: 0;
+  
+}
+.header-serach .btn{
+  
+}
+.header-sign {
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -54,27 +80,19 @@ nav ul {
 .header-sign button {
   background-color: rgb(240, 146, 51);
   color: white;
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 8px 0;
+  border-color: rgb(240, 146, 51);
 }
 
-.header-form a {
+.header-search a {
   text-decoration: none;
   color: #fff;
 }
-
-.header-form li {
-  display: inline-block;
-  float: right;
-
-  list-style-type: none;
-}
-
-.header-form input {
-  background-color: rgb(31, 82, 111)
-}
-
-.logo {
-  padding: 10px;
-  display: inline-block;
+  
+.header-logo {
+  padding: 10px 10px 0 10px;
   float: left;
 }
 
@@ -85,18 +103,23 @@ nav ul {
 }
 
 .collaboration-container {
-  padding: 1.5rem;
+  padding: 4.5rem;
   margin: 0 auto;
 }
 
 .collaboration-heading {
   display: inline-block;
   float: right;
+  padding-left: 0;
 }
 
 .collaboration button {
   background-color: rgb(203, 56, 55);
   color: white;
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 8px 0;
+  border-color: rgb(203, 56, 55);
 }
 
 .collaboration a {
@@ -106,23 +129,66 @@ nav ul {
 
 /* npm-section */
 .npm {
-  background-image: url("images/forklift.svg");
+  display: block;
+  background-image: url("/images/forklift.svg");
+  background-color: rgb(31, 82, 111);
   background-size: cover;
-  
   color: white;
   position: relative;
-  padding: 5.5rem;
+  padding: 7.5rem;
 }
 
 .npm h3 {
   margin: 0;
+  padding: 0;
 }
 
 .npm button {
   color: white;
   background: rgb(49, 68, 88);
+  padding: .8em 2em;
+  border-radius: 2em;
+  margin: 10px 0 8px 0;
+  border-color: rgb(49, 68, 88);
 }
 
 .npm-text {
   position: absolute;
+  margin: 0;
+  float: left;
+}
+
+.npm img {
+  float: right;
+}
+/* section third */
+
+.section-third section {
+  background-color: #fff;
+
+}
+
+.section-third a {
+  color: rgb(208, 74, 73);
+}
+
+.section-third p {
+  color: rgb(135, 145, 156);
+}
+
+.section-third h4 {
+  color: rgb(83, 88, 98);
+}
+
+.heading-text {
+  padding: 10px;
+  margin: 0 auto;
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.section-third-items {
+  display: inline-grid;
+  grid-template-columns: 33% 33% 33%;
+  text-align: center;
 }
