@@ -43,6 +43,11 @@ nav ul {
   margin: 0 auto;
 }
 .header-search{
+  display: grid;
+  grid-template-columns: 15% 60% 5% 20%;
+  grid-template-rows: 50%;
+  padding-top: 10px;
+  
   
 }
 
@@ -63,20 +68,23 @@ nav ul {
   background-color: rgb(31, 82, 111);
   margin: 0;
   padding: 0;
-  
 }
-.header-serach .btn{
-  
+#search {
+  fill: white;
 }
 .header-sign {
-  width: 50%;
+  width: 70%;
   margin: 0 auto;
 }
 
 .header-sign img {
   float: right;
 }
-
+.header .header-input {
+  padding: 1.7em;
+  border: 1px solid rgb(104, 135, 153);
+  
+}
 .header-sign button {
   background-color: rgb(240, 146, 51);
   color: white;
@@ -85,17 +93,34 @@ nav ul {
   margin: 10px 0 8px 0;
   border-color: rgb(240, 146, 51);
 }
-
+.header .btn-search{
+  padding-bottom: 2.3rem;
+  margin: 0;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgb(104, 135, 153);
+  border-left: none;
+  margin: 0;
+}
 .header-search a {
   text-decoration: none;
   color: #fff;
 }
   
 .header-logo {
-  padding: 10px 10px 0 10px;
+  padding: 0 10px 0 10px;
   float: left;
 }
+.header-bear img{
+  padding: 0 10px 0 10px;
+}
 
+.header-bear {
+  margin: 0;
+}
+.header-bear a {
+  padding: .2em 0.2em 0 0.2em;
+}
 /* Collaboration*/
 .collaboration {
   color: white;
@@ -129,18 +154,15 @@ nav ul {
 
 /* npm-section */
 .npm {
-  display: block;
-  background-image: url("/images/forklift.svg");
+  display: grid;
+  background-image: url("/images/red-car.png");
   background-color: rgb(31, 82, 111);
   background-size: cover;
+  resize: both;
+  background-repeat: no-repeat;
   color: white;
   position: relative;
-  padding: 7.5rem;
-}
-
-.npm h3 {
-  margin: 0;
-  padding: 0;
+  padding: 9.5em;
 }
 
 .npm button {
@@ -154,18 +176,13 @@ nav ul {
 
 .npm-text {
   position: absolute;
-  margin: 0;
-  float: left;
+  margin: 1.5em 0 0 3.5em;
 }
 
-.npm img {
-  float: right;
-}
 /* section third */
 
 .section-third section {
   background-color: #fff;
-
 }
 
 .section-third a {
